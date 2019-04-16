@@ -1,0 +1,2 @@
+This guide uses paid services; you may need to enable Billing in Microsoft Azure
+to complete some steps in this guide.

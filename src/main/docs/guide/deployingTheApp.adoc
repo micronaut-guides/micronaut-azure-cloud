@@ -1,0 +1,3 @@
+To deploy the app to Azure run:
+
+TODO

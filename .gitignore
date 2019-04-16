@@ -1,0 +1,11 @@
+.gradle
+.DS_Store
+.idea
+.apt_generated
+bin
+/build
+build
+*.iml
+.vscode
+.settings
+.project

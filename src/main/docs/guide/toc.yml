@@ -1,0 +1,22 @@
+training:
+  title: Micronaut Training
+gettingStarted:
+  title: Getting Started
+costs:
+  title: Costs
+whatYouWillNeed:
+  title: What you will need
+howToComplete:
+  title: How to Complete
+cloudSDK:
+  title: Cloud SDK
+controller:
+  title: Sample Controller
+deployingTheApp:
+  title: Deploying the app
+logging:
+  title: Logging
+cleaningUp:
+  title: Cleaning Up
+learnMore:
+   title: Learn More
