@@ -1,7 +1,7 @@
 # micronaut-azure-cloud
 
 
-[Deploy a Micronaut app to Microsoft Azure](http://guides.micronaut.io/micronaut-microsoft-azure/guide/index.html)
+[Deploy a Micronaut app to Microsoft Azure](http://guides.micronaut.io/micronaut-azure-cloud/guide/index.html)
 
 To generate the guide:
 
