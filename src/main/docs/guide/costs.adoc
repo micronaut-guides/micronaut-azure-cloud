@@ -1,2 +1,1 @@
-This guide uses paid services; you may need to enable Billing in Microsoft Azure
-to complete some steps in this guide.
+This guide uses services available in the https://azure.microsoft.com/free/free-account-faq/?WT.mc_id=opensource-micronaut-brborges[Always Free tier] of https://azure.microsoft.com/free/?WT.mc_id=opensource-micronaut-brborges[Microsoft Azure Free Account]. If you don't have one already, https://azure.microsoft.com/free/?WT.mc_id=opensource-micronaut-brborges[create your account] to complete this guide.
