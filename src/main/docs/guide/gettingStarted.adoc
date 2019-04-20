@@ -1,4 +1,2 @@
 In this guide, you are going to deploy a Micronaut application
-to Azure
-
-TODO
+to https://azure.microsoft.com/en-us/services/app-service/web/[Microsoft Azure App Service for Web Apps].
