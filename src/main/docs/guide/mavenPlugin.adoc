@@ -1,0 +1,30 @@
+First, make sure you have the Azure CLI installed and authenticated:
+
+`$ az login`
+
+Then, open the `pom.xml` file and add the following `<plugin>` inside the `<plugins>` section of the Maven `<build>` definition of the POM:
+
+.pom.xml
+[source,xml]
+----
+      <plugin>
+        <groupId>com.microsoft.azure</groupId>
+        <artifactId>azure-webapp-maven-plugin</artifactId>
+        <version>1.6.0</version>
+      </plugin>
+----
+
+Save the file.
+
+Now you can run the following goal to help you configure the required settings:
+
+`mvn azure-webapp:config`
+
+Make sure you select the following options:
+
+ - OS: linux
+ - javaVersion: java11
+ - runtimeStack: java11
+
+ Check your `pom.xml` to see the new configuration done for you.
+

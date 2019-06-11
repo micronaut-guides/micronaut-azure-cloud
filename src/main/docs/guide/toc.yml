@@ -8,8 +8,8 @@ whatYouWillNeed:
   title: What you will need
 howToComplete:
   title: How to Complete
-cloudSDK:
-  title: Cloud SDK
+mavenPlugin:
+  title: Maven Plugin for Azure App Service
 controller:
   title: Sample Controller
 deployingTheApp:

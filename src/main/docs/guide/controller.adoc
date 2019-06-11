@@ -1,6 +1,6 @@
 Create a controller which we can invoke once the app is deployed. 
 
-[source,groovy]
+[source,java]
 .src/main/java/example/micronaut/HelloController.java
 ----
 include::{sourceDir}/src/main/java/example/micronaut/HelloController.java[]

@@ -1,5 +1,11 @@
 After you've finished this guide, you can clean up the resources you created on
-Azure so you won't be billed for them in the future. The following
+Azure so you won't take the risk of being billed because of them in the future. The following
 sections describe how to delete or turn off these resources.
 
-TODO
+Delete the resource group and all of its resources created along this guide with the following command:
+
+`az group delete -g [resourceGroup]`
+
+Answer `y` to confirm.
+
+You can add the `--no-wait` parameter to not wait for the command to finish.

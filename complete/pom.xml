@@ -79,6 +79,33 @@
   <build> 
     <plugins> 
       <plugin> 
+        <groupId>com.microsoft.azure</groupId>  
+        <artifactId>azure-webapp-maven-plugin</artifactId>  
+        <version>1.6.0</version>  
+        <configuration>
+          <schemaVersion>V2</schemaVersion>
+          <resourceGroup>example-micronaut-1560242864679-rg</resourceGroup>
+          <appName>example-micronaut-1560242864679</appName>
+          <region>westeurope</region>
+          <pricingTier>P1V2</pricingTier>
+          <runtime>
+            <os>linux</os>
+            <javaVersion>jre8</javaVersion>
+            <webContainer>jre8</webContainer>
+          </runtime>
+          <deployment>
+            <resources>
+              <resource>
+                <directory>${project.basedir}/target</directory>
+                <includes>
+                  <include>*.jar</include>
+                </includes>
+              </resource>
+            </resources>
+          </deployment>
+        </configuration>
+      </plugin>  
+      <plugin> 
         <groupId>org.apache.maven.plugins</groupId>  
         <artifactId>maven-shade-plugin</artifactId>  
         <version>3.1.0</version>  

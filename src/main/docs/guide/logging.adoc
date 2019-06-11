@@ -1,1 +1,15 @@
-TODO
+To see the log of your application running on Azure, you have to first enable storage of your app logging, and then perform a tail for live streaming.
+
+To enable logging storage, use the following Azure CLI command. Check your `pom.xml` for the generated `<resourceGroup>` and the `<appName>`
+
+`az webapp log config --name [appName] -g [resourceGroup] --web-server-logging filesystem`
+
+Once this is done, you can then tail the log live from the cloud:
+
+`az webapp log tail --name [appName] -g [resourceGroup]`
+
+If you don't see any log, try changing the level of the project's Logback configuration in `logback.xml` to a higher value such as `debug`, then run the Maven deployment command again:
+
+`mvn package azure-webapp:deploy`
+
+And then run the tail command above once again.

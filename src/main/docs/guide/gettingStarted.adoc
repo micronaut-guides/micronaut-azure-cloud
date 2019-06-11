@@ -1,2 +1,2 @@
 In this guide, you are going to deploy a Micronaut application
-to https://azure.microsoft.com/en-us/services/app-service/web/[Microsoft Azure App Service for Web Apps].
+to https://azure.microsoft.com/en-us/services/app-service/web/?WT.mc_id=opensource-micronaut-brborges[Microsoft Azure App Service for Web Apps].

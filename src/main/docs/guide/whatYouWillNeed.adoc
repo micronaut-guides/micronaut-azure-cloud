@@ -2,4 +2,6 @@ To complete this guide, you will need the following:
 
 - Some time on your hands
 - A decent text editor or IDE
-- JDK 1.8 or greater installed with JAVA_HOME configured appropriately
+- https://docs.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest?WT.mc_id=opensource-micronaut-brborges[Azure CLI] installed and https://docs.microsoft.com/en-us/cli/azure/authenticate-azure-cli?WT.mc_id=opensource-micronaut-brborges&view=azure-cli-latest#sign-in-interactively[authenticated]
+- JDK 8 installed with JAVA_HOME configured appropriately (cannot be Java 9 or later)
+
