@@ -4,7 +4,7 @@ Download and unzip the source or clone the following GitHub repository:
 
 [source, bash]
 ----
-git clone https://github.com/micronaut-guides/micronaut-maven-azure.git
+git clone https://github.com/micronaut-guides/micronaut-azure-cloud.git
 ----
 
 This Micronaut guide contains two folders:
