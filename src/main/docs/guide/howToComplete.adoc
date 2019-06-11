@@ -24,12 +24,10 @@ or you can go right to the completed example:
 `cd complete`
 
 Although you can go right to the completed example, in order to deploy the app you
-would need to complete several configuration steps in Google Cloud:
+would need to complete several configuration steps in Microsoft Azure:
 
-- Install the Azure CLI
+- Install the https://docs.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest?WT.mc_id=opensource-micronaut-brborges[Azure CLI]
 
-- Authenticate with your Azure account
+- https://docs.microsoft.com/en-us/cli/azure/authenticate-azure-cli?WT.mc_id=opensource-micronaut-brborges&view=azure-cli-latest#sign-in-interactively[Authenticate] with your Azure account
 
-- Configure the Maven plugin for Azure App Service
-
-Checkout the guide steps for more details.
+After you've checked out the links above, follow below for the next steps on setting up the Maven plugin for Azure deployment.

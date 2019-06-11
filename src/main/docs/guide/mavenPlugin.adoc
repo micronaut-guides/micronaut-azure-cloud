@@ -23,8 +23,43 @@ Now you can run the following goal to help you configure the required settings:
 Make sure you select the following options:
 
  - OS: linux
- - javaVersion: java11
- - runtimeStack: java11
+ - javaVersion: jre8
+ - runtimeStack: jre8
 
- Check your `pom.xml` to see the new configuration done for you.
+This is how it looks like:
+
+----
+[INFO] --- azure-webapp-maven-plugin:1.6.0:config (default-cli) @ example-micronaut ---
+[WARNING] The plugin may not work if you change the os of an existing webapp.
+Define value for OS(Default: Linux): 
+1. linux [*]
+2. windows
+3. docker
+Enter index to use: 1
+Define value for javaVersion(Default: jre8): 
+1. jre8 [*]
+2. java11
+Enter index to use: 1
+Define value for runtimeStack(Default: TOMCAT 8.5): 
+1. TOMCAT 9.0
+2. jre8
+3. TOMCAT 8.5 [*]
+4. WILDFLY 14
+Enter index to use: 2
+Please confirm webapp properties
+AppName : example-micronaut-1560245627178
+ResourceGroup : example-micronaut-1560245627178-rg
+Region : westeurope
+PricingTier : Premium_P1V2
+OS : Linux
+RuntimeStack : JAVA 8-jre8
+Deploy to slot : false
+Confirm (Y/N)? : 
+[INFO] Saving configuration to pom.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+----
+
+Check your `pom.xml` to see the new configuration done for you.
 
