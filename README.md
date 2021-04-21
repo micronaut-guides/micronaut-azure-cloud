@@ -1,16 +1,1 @@
-# micronaut-azure-cloud
-
-
-[Deploy a Micronaut app to Microsoft Azure](http://guides.micronaut.io/micronaut-azure-cloud/guide/index.html)
-
-To generate the guide:
-
-```
-./gradlew publishGuide
-```
-
-To open Guide:
-
-```
-open build/docs/index.html 
-```
+# This guide has been deprecated and moved to https://github.com/micronaut-projects/micronaut-guides-poc. Please open any issue or pull request in that repository.
